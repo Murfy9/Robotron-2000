@@ -223,11 +223,12 @@ main {
 }
 
 .botoes {
-    position: absolute;
+    position: relative;
     right: 5%;
-    top: 1em;
+    bottom: 10%;
     display: flex;
 }
+
 
 @media screen and (max-width: 1600px) {
     body { 
@@ -249,5 +250,10 @@ main {
         width: 96vw;
         height: 80vh;
         margin: 10vh auto;
+    }
+    
+    .botoes {
+        position: absolute;
+        top: 1em;
     }
 }
