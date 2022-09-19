@@ -132,6 +132,7 @@ main {
 }
 
 .producao {
+    margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
     padding: 0.2em 1em;
@@ -212,7 +213,7 @@ main {
     background-color: transparent;
 
     margin: 2px;
-    width: 200px;
+    width: 100px;
 
     border: 1px solid black;
     border-radius: 30px;
@@ -223,9 +224,8 @@ main {
 }
 
 .botoes {
-    position: relative;
-    right: 5%;
-    bottom: 10%;
+    position: absolute;
+    left: 5em;
     display: flex;
 }
 
@@ -250,10 +250,5 @@ main {
         width: 96vw;
         height: 80vh;
         margin: 10vh auto;
-    }
-    
-    .botoes {
-        position: absolute;
-        top: 1em;
     }
 }
